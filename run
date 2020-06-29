@@ -1,0 +1,3 @@
+#! /bin/bash
+
+erl -config config/sys -args_file config/vm.args -pa deps/*/ebin ebin -s erlpaca_app
